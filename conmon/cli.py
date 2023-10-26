@@ -26,3 +26,10 @@ def read_user_cli_args():
     )
     return parser.parse_args()
 
+def display_check_result(result, url, error=""):
+    """Display the result of a connectivity check."""
+    print(f'The Status of "{url}" is :', end=" ")
+    if result:
+        print('"Online!" 👍')
+    else:
+        print('"Offline?" 👎 \n Error: "{error}"')
