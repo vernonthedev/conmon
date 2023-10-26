@@ -70,3 +70,23 @@ options:
                         Read URLs from a File.
 ```
 
+## Examples
+The ```-u``` Argument supports arguments as urls that the user would like to test connectivity to.
+```python
+python -m conmon -u google.com
+#=================OUTPUT=====================
+The Status of "google.com" is : "Online!" 👍
+```
+The ```-f``` Argument enables the user to add a file as input to the program that contains all the website urls that the user would require to test their connectivity
+```python
+python -m conmon -f U:\Developments\urlSites.txt
+#===============OUTPUT=======================
+The Status of "google.com" is : "Online!" 👍
+The Status of "facebook.com" is : "Offline?" 👎 
+ Error: "timed out"
+The Status of "idontexisthere.com" is : "Offline?" 👎 
+ Error: "[Errno 11001] getaddrinfo failed"
+The Status of "laucher.com" is : "Online!" 👍
+The Status of "microsoft.com" is : "Online!" 👍
+```
+
