@@ -12,6 +12,7 @@ def read_user_cli_args():
         "-u",
         "--urls",
         metavar="URLs",
+        nargs="+",
         type=str,
         default=[],
         help="Enter one or more website URLs."
@@ -32,4 +33,4 @@ def display_check_result(result, url, error=""):
     if result:
         print('"Online!" 👍')
     else:
-        print('"Offline?" 👎 \n Error: "{error}"')
+        print(f'"Offline?" 👎 \n Error: "{error}"')
