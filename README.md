@@ -104,7 +104,7 @@ options:
                         Read URLs from a File.
 ```
 
-### Command Line Arguments
+### Command Line Arguments...
 Conmon provides a user-friendly command-line interface with the following options:
 
 ```-u```, ```--urls```: Specify one or more website URLs directly as arguments.
