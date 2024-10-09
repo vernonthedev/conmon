@@ -14,7 +14,7 @@
   <li>Checking Websites</li>
  <li>Examples</li>
  <li>Contributing</li>
- <li>License</li>
+ <li>License.</li>
 </ul>
 
 ### Top Level Directory Structure
