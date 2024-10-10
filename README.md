@@ -9,7 +9,7 @@
  <li>Introduction</li>
  <li>Features</li>
  <li>Installation Guide</li>
- <li>Usage</li>
+ <li>Usage.</li>
   <li>Command line Arguments</li>
   <li>Checking Websites</li>
  <li>Examples</li>
